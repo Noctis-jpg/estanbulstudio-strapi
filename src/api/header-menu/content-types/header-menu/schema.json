@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "header_menus",
+  "info": {
+    "singularName": "header-menu",
+    "pluralName": "header-menus",
+    "displayName": "Header Menu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    },
+    "link": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
