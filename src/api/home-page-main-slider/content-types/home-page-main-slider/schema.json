@@ -25,6 +25,9 @@
     },
     "Mainsliderlink": {
       "type": "string"
+    },
+    "SlideText": {
+      "type": "string"
     }
   }
 }
