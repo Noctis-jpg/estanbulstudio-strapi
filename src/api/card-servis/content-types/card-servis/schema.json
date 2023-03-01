@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "card_serviss",
+  "info": {
+    "singularName": "card-servis",
+    "pluralName": "card-serviss",
+    "displayName": "CardServis"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CardImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "CardHead": {
+      "type": "string"
+    },
+    "CardText": {
+      "type": "text"
+    }
+  }
+}

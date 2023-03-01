@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "slide_alti_slogans",
+  "info": {
+    "singularName": "slide-alti-slogan",
+    "pluralName": "slide-alti-slogans",
+    "displayName": "Slide Altı Slogan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Marka": {
+      "type": "string"
+    },
+    "Slogan": {
+      "type": "string"
+    }
+  }
+}
