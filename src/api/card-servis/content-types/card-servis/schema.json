@@ -4,7 +4,8 @@
   "info": {
     "singularName": "card-servis",
     "pluralName": "card-serviss",
-    "displayName": "CardServis"
+    "displayName": "CardServis",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,20 +13,27 @@
   "pluginOptions": {},
   "attributes": {
     "CardImg": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "CardHead": {
       "type": "string"
     },
     "CardText": {
       "type": "text"
+    },
+    "CardUrl": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
     }
   }
 }
