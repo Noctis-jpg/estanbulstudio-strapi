@@ -12,9 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "AboutSlide": {
+    "AboutTitle": {
+      "type": "string"
+    },
+    "AboutText": {
+      "type": "text"
+    },
+    "Icon": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
         "images",
@@ -23,10 +29,13 @@
         "audios"
       ]
     },
-    "AboutTitle": {
+    "Number": {
+      "type": "integer"
+    },
+    "IconLink": {
       "type": "string"
     },
-    "AboutText": {
+    "NumberText": {
       "type": "text"
     }
   }
