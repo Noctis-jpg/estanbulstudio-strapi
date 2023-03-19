@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_homes",
+  "info": {
+    "singularName": "about-home",
+    "pluralName": "about-homes",
+    "displayName": "AboutHome",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "LeftPicture": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "LeftPictureHead": {
+      "type": "string"
+    },
+    "LeftPictureText": {
+      "type": "text"
+    },
+    "RightPicture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "RightPictureHead": {
+      "type": "string"
+    },
+    "RightPictureText": {
+      "type": "text"
+    },
+    "RightPicture2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "RightPictureHead2": {
+      "type": "string"
+    },
+    "RightPictureText2": {
+      "type": "text"
+    }
+  }
+}
