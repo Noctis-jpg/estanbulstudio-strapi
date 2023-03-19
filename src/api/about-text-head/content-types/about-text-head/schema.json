@@ -4,7 +4,8 @@
   "info": {
     "singularName": "about-text-head",
     "pluralName": "about-text-heads",
-    "displayName": "AboutTextHead"
+    "displayName": "CounterTextHead",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

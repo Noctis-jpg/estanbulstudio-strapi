@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer_top_videos",
+  "info": {
+    "singularName": "footer-top-video",
+    "pluralName": "footer-top-videos",
+    "displayName": "FooterTopVideo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "VideoorPhoto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "VideoText": {
+      "type": "text"
+    },
+    "ButtonText": {
+      "type": "text"
+    },
+    "ButtonUrl": {
+      "type": "string"
+    }
+  }
+}

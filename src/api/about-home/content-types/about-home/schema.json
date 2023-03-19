@@ -29,15 +29,16 @@
     "LeftPictureText": {
       "type": "text"
     },
-    "RightPicture": {
+    "rightPicture": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "RightPictureHead": {
       "type": "string"
@@ -46,14 +47,15 @@
       "type": "text"
     },
     "RightPicture2": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "RightPictureHead2": {
       "type": "string"
