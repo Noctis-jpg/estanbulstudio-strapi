@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tabs_categories",
+  "info": {
+    "singularName": "tabs-category",
+    "pluralName": "tabs-categories",
+    "displayName": "Tabs Category"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Category": {
+      "type": "string"
+    }
+  }
+}

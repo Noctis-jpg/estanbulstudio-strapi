@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tabs_estanbuls",
+  "info": {
+    "singularName": "tabs-estanbul",
+    "pluralName": "tabs-estanbuls",
+    "displayName": "TabsEstanbul",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Baslik": {
+      "type": "string",
+      "required": true
+    },
+    "myTabsContentimg": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tabs_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tabs-category.tabs-category"
+    }
+  }
+}
