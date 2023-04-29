@@ -4,7 +4,8 @@
   "info": {
     "singularName": "tabs-category",
     "pluralName": "tabs-categories",
-    "displayName": "Tabs Category"
+    "displayName": "Tabs Category",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

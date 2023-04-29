@@ -18,7 +18,7 @@
     },
     "myTabsContentimg": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "required": true,
       "allowedTypes": [
         "images",
@@ -26,11 +26,6 @@
         "videos",
         "audios"
       ]
-    },
-    "tabs_category": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::tabs-category.tabs-category"
     }
   }
 }
