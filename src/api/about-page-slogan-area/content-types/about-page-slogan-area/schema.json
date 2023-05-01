@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_page_slogan_areas",
+  "info": {
+    "singularName": "about-page-slogan-area",
+    "pluralName": "about-page-slogan-areas",
+    "displayName": "AboutPageSloganArea",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AboutPageSlogan": {
+      "type": "text"
+    },
+    "AboutPageTextArea": {
+      "type": "richtext"
+    }
+  }
+}
