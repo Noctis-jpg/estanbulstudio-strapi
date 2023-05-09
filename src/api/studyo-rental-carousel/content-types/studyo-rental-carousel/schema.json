@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "studyo_rental_carousels",
+  "info": {
+    "singularName": "studyo-rental-carousel",
+    "pluralName": "studyo-rental-carousels",
+    "displayName": "StudyoRentalCarousel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "RentalCarousel": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

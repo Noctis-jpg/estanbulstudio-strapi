@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "studyo_kiralamas",
+  "info": {
+    "singularName": "studyo-kiralama",
+    "pluralName": "studyo-kiralamas",
+    "displayName": "StudyoKiralama"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "RentalHeading": {
+      "type": "string"
+    },
+    "RentalTextArea": {
+      "type": "richtext"
+    }
+  }
+}
