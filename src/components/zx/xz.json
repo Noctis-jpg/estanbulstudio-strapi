@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_zx_xzs",
+  "info": {
+    "displayName": "xz"
+  },
+  "options": {},
+  "attributes": {
+    "zxc": {
+      "type": "string"
+    }
+  }
+}
