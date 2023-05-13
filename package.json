@@ -14,7 +14,8 @@
     "@strapi/plugin-users-permissions": "4.6.0",
     "@strapi/strapi": "4.6.0",
     "aws-sdk": "^2.1333.0",
-    "better-sqlite3": "7.4.6"
+    "better-sqlite3": "7.4.6",
+    "strapi-html-editor": "^1.0.2"
   },
   "author": {
     "name": "A Strapi developer"
