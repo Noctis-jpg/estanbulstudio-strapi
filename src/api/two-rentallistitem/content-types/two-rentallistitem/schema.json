@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "two_rentallistitems",
+  "info": {
+    "singularName": "two-rentallistitem",
+    "pluralName": "two-rentallistitems",
+    "displayName": "two-rentallistitem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TwoitemList": {
+      "type": "string"
+    }
+  }
+}

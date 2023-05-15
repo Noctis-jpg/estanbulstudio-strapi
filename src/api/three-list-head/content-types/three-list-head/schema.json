@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "three_list_heads",
+  "info": {
+    "singularName": "three-list-head",
+    "pluralName": "three-list-heads",
+    "displayName": "three-list-head"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ThreeHead": {
+      "type": "string"
+    }
+  }
+}

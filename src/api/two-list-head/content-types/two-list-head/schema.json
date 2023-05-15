@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "two_list_heads",
+  "info": {
+    "singularName": "two-list-head",
+    "pluralName": "two-list-heads",
+    "displayName": "two-list-head"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeadTwo": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "one_list_heads",
+  "info": {
+    "singularName": "one-list-head",
+    "pluralName": "one-list-heads",
+    "displayName": "one-list-head"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Head": {
+      "type": "string"
+    }
+  }
+}

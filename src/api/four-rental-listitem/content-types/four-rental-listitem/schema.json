@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "four_rental_listitems",
+  "info": {
+    "singularName": "four-rental-listitem",
+    "pluralName": "four-rental-listitems",
+    "displayName": "four-rental-listitem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FouritemList": {
+      "type": "string"
+    }
+  }
+}

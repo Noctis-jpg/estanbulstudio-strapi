@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "three_rental_listitems",
+  "info": {
+    "singularName": "three-rental-listitem",
+    "pluralName": "three-rental-listitems",
+    "displayName": "three-rental-listitem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ThreeitemList": {
+      "type": "string"
+    }
+  }
+}

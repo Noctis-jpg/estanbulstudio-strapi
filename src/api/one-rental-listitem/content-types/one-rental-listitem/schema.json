@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "one_rental_listitems",
+  "info": {
+    "singularName": "one-rental-listitem",
+    "pluralName": "one-rental-listitems",
+    "displayName": "one-rental-listitem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "OneitemList": {
+      "type": "string"
+    }
+  }
+}
