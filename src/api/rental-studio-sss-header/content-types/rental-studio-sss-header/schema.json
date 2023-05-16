@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "rental_studio_sss_headers",
+  "info": {
+    "singularName": "rental-studio-sss-header",
+    "pluralName": "rental-studio-sss-headers",
+    "displayName": "RentalStudioSSSHeader"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "smalltitle": {
+      "type": "string"
+    },
+    "Bigtitle": {
+      "type": "string"
+    }
+  }
+}

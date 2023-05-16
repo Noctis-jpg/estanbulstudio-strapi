@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accordions",
+  "info": {
+    "singularName": "accordion",
+    "pluralName": "accordions",
+    "displayName": "accordion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
