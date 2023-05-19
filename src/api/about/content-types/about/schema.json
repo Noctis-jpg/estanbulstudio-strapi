@@ -12,12 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "AboutTitle": {
-      "type": "string"
-    },
-    "AboutText": {
-      "type": "text"
-    },
     "Icon": {
       "type": "media",
       "multiple": false,
@@ -31,12 +25,6 @@
     },
     "Number": {
       "type": "integer"
-    },
-    "IconLink": {
-      "type": "string"
-    },
-    "NumberText": {
-      "type": "text"
     }
   }
 }

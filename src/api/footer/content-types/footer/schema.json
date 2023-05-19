@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SolUstBaslik": {
+      "type": "string"
+    },
+    "SolUstYazi": {
+      "type": "text"
+    },
+    "SolAltBaslik": {
+      "type": "string"
+    },
+    "SolAltYazi": {
+      "type": "text"
+    },
+    "SagUstBaslik": {
+      "type": "string"
+    },
+    "SagUstBaslikiki": {
+      "type": "string"
+    },
+    "Konum": {
+      "type": "text"
+    },
+    "Mail": {
+      "type": "string"
+    },
+    "Tel": {
+      "type": "string"
+    },
+    "Whatsapp": {
+      "type": "string"
+    }
+  }
+}

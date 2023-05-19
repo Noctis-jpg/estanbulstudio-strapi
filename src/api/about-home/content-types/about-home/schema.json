@@ -62,6 +62,9 @@
     },
     "RightPictureText2": {
       "type": "text"
+    },
+    "LeftPictureLink": {
+      "type": "string"
     }
   }
 }

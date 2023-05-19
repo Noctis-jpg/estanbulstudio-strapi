@@ -14,7 +14,7 @@
   "attributes": {
     "Baslik": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "myTabsContentimg": {
       "type": "media",
@@ -28,14 +28,15 @@
       ]
     },
     "VideoAreaTabs": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }

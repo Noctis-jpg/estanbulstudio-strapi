@@ -1,10 +1,10 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "rental_studios",
   "info": {
     "singularName": "rental-studio",
     "pluralName": "rental-studios",
-    "displayName": "RentalStudio",
+    "displayName": "rental-studio",
     "description": ""
   },
   "options": {
@@ -12,20 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "StudyoEkipmanBaslik": {
+    "RentalStudioSlideAltiBaslik": {
       "type": "string"
     },
-    "StudyoEkipmanicerik": {
-      "type": "richtext"
-    },
-    "ListItems": {
-      "type": "enumeration",
-      "enum": [
-        "Nikon D850",
-        "Canon R5",
-        "Canon R6",
-        "Canon Mark IV"
-      ]
+    "HizmetBaslik": {
+      "type": "string"
     }
   }
 }
