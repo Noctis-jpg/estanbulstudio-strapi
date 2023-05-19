@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "fixed_whatsapp_btns",
+  "info": {
+    "singularName": "fixed-whatsapp-btn",
+    "pluralName": "fixed-whatsapp-btns",
+    "displayName": "FixedWhatsappBtn",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Whatsapphref": {
+      "type": "string"
+    },
+    "WhatsappIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
