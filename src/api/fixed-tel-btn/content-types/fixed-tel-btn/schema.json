@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "fixed_tel_btns",
+  "info": {
+    "singularName": "fixed-tel-btn",
+    "pluralName": "fixed-tel-btns",
+    "displayName": "FixedTelBtn"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TelHref": {
+      "type": "string"
+    },
+    "Telimage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
