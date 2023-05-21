@@ -10,14 +10,11 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
-    "@strapi/plugin-graphql": "^4.10.5",
     "@strapi/plugin-i18n": "4.6.0",
     "@strapi/plugin-users-permissions": "4.6.0",
     "@strapi/strapi": "4.6.0",
     "aws-sdk": "^2.1333.0",
-    "better-sqlite3": "7.4.6",
-    "strapi-html-editor": "^1.0.2"
+    "better-sqlite3": "7.4.6"
   },
   "author": {
     "name": "A Strapi developer"
