@@ -10,6 +10,10 @@
     "strapi": "strapi"
   },
   "dependencies": {
+<<<<<<< Updated upstream
+=======
+    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
+>>>>>>> Stashed changes
     "@strapi/plugin-i18n": "4.6.0",
     "@strapi/plugin-users-permissions": "4.6.0",
     "@strapi/strapi": "4.6.0",
