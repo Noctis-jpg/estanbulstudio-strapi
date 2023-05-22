@@ -1,8 +1,6 @@
-module.exports = ({ env }) => ({
-  auth: {
-    secret: env('ADMIN_JWT_SECRET'),
-  },
+module.exports = {
+  // other configurations
   apiToken: {
-    salt: env('API_TOKEN_SALT'),
+    salt: 'estanbul_strapi_react',
   },
-});
+};
