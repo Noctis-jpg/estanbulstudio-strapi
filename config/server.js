@@ -1,9 +1,7 @@
-module.exports = {
-  // Diğer yapılandırmalar...
-
+module.exports = ({ env }) => ({
+  host: env('HOST', '0.0.0.0'),
+  port: env.int('PORT', 1337),
   app: {
-    keys: ['ymKeyU', 'ymKeyM']
+    keys: env.array('APP_KEYS'),
   },
-
-  // Diğer yapılandırmalar devam ediyor...
-};
+});
