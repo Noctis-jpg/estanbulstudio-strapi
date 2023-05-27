@@ -2,7 +2,7 @@ module.exports = ({ env }) => ({
   settings: {
     cors: {
       enabled: true,
-      origin: ["http://localhost:3000"],
+      origin: ["*"],
     },
   },
 });
@@ -16,7 +16,7 @@ module.exports = {
   settings: {
     cors: {
       enabled: true,
-      origin: ["http://localhost:3000"],
+      origin: ["*"],
     },
   },
 };
